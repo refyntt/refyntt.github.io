@@ -1,0 +1,178 @@
+@import url(https://fonts.googleapis.com/css?family=Bebas+Neue);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+
+#handy-basisx {
+  width: 263px;
+  height: 525px;
+  background: url("https://up.picr.de/43493346nx.png");
+  margin: 0 auto;
+  position: relative;
+}
+#handyd-basisx {
+  width: 263px;
+  height: 525px;
+  background: url("https://up.picr.de/43493346nx.png");
+  margin: 0 auto;
+  position: relative;
+}
+#handy-basisx #iconsx {
+  width: 225px;
+  position: absolute;
+  top: 70px;
+  left: 22px;
+  font-size: 9px;
+  color: #000;
+  z-index: 10;
+  font-family: "Montserrat";
+}
+#handyd-basisx #iconsx {
+  width: 225px;
+  position: absolute;
+  top: 70px;
+  left: 22px;
+  font-size: 9px;
+  color: #000;
+  z-index: 10;
+  font-family: "Montserrat";
+}
+#handy-basisx #bild1x {
+  width: 225px;
+  height: 396px;
+  position: absolute;
+  top: 66px;
+  left: 18px;
+}
+#handyd-basisx #bild1x {
+  width: 225px;
+  height: 396px;
+  position: absolute;
+  top: 62px;
+  left: 19px;
+}
+#handy-basisx #bild2x {
+  width: 225px;
+  height: 396px;
+  position: absolute;
+  top: 66px;
+  left: 19px;
+  transition: 1s ease-in-out;
+  opacity: 0;
+}
+#handyd-basisx #bild2x {
+  width: 225px;
+  height: 396px;
+  position: absolute;
+  top: 66px;
+  left: 19px;
+  transition: 1s ease-in-out;
+  opacity: 0;
+}
+#handy-basisx:hover #bild2x {
+  opacity: 1;
+}
+#handyd-basisx:hover #bild2x {
+  opacity: 1;
+}
+#bild1x #timex {
+  width: 140px;
+  position: absolute;
+  top: 30px;
+  left: 40px;
+  font-size: 60px;
+  color: #fff;
+  font-family: "Oswald";
+}
+#bild1x #datex {
+  width: 120px;
+  position: absolute;
+  top: 106px;
+  left: 63px;
+  font-size: 12px;
+  color: #fff;
+  font-family: "Oswald";
+  letter-spacing: 1px;
+}
+#bild2x #textfeldx {
+  width: 215px;
+  height: 275px;
+  position: absolute;
+  top: 22px;
+  left: 5px;
+  background-color: #f1f1f1;
+  box-sizing: border-box;
+  padding: 10px;
+  font-size: 11px;
+  text-align: justify;
+  color: #000;
+  overflow: auto;
+  z-index: 5;
+  font-family: "Open Sans";
+}
+#bild2x .formx {
+  width: 20px;
+  height: 20px;
+  z-index: 2;
+  position: absolute;
+  top: 285px;
+  left: 100px;
+}
+#form1x {
+  transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  background-color: #f1f1f1;
+  z-index: 1;
+}
+#bild2x .avax {
+  width: 64px;
+  height: 64px;
+  box-sizing: content-box;
+  padding: 5px;
+  border: #f1f1f1 solid 1px;
+  position: absolute;
+  top: 305px;
+  left: 125px;
+  border-radius: 100%;
+  -moz-border-radius: 100%;
+  -webkit-border-radius: 100%;
+}
+#bild2x .avax img {
+  border-radius: 100%;
+  -moz-border-radius: 100%;
+  -webkit-border-radius: 100%;
+  width: 60px;
+  height: 60px;
+}
+#bild2x #strichx {
+  width: 110px;
+  height: 1px;
+  background-color: #f1f1f1;
+  position: absolute;
+  top: 330px;
+  left: 15px;
+}
+#bild2x #fromx {
+  width: 110px;
+  position: absolute;
+  top: 310px;
+  left: 15px;
+  text-align: center;
+  font-size: 16px;
+  font-family: "Bebas Neue";
+  color: #fff;
+}
+#bild2x #tox {
+  width: 110px;
+  position: absolute;
+  top: 335px;
+  left: 15px;
+  text-align: center;
+  font-size: 10px;
+  font-family: "Open Sans";
+  text-transform: uppercase;
+  color: #fff;
+}
